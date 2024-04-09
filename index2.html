@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Brand Name</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+
+    <!-- Your custom CSS -->
+    <link href="style2.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">
+      <img src="a_no_background.png" width="30" height="30" class="d-inline-block align-top" alt="">
+      Rigby's Dog Treats
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ml-auto">
+        <a class="nav-item nav-link" href="#link1">Link 1</a>
+        <a class="nav-item nav-link" href="#link2">Link 2</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="bg-image-section">
+    <div class="container text-center">
+        <h1 class="headline">Welcome to Our Brand</h1>
+        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#emailModal">
+            <i class="fas fa-paw"></i> Join the List
+        </button>
+    </div>
+</section>
+
+<!-- Email Modal -->
+<div class="modal fade" id="emailModal" tabindex="-1" aria-labelledby="emailModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="emailModalLabel">Join Our List</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form id="emailForm">
+            <div class="form-group">
+              <label for="emailAddress">Email address</label>
+              <input type="email" class="form-control" id="emailAddress" aria-describedby="emailHelp" placeholder="Enter email">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="meme-gallery py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Meme Gallery</h2>
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card">
+                    <img src="meme_13_not_my_face.png" class="card-img-top img-fluid" alt="Meme 1">
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card">
+                    <img src="meme_14_barks_orders.png" class="card-img-top img-fluid" alt="Meme 2">
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card">
+                    <img src="meme_3_threw_it_get_it.png" class="card-img-top img-fluid" alt="Meme 3">
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card">
+                    <img src="meme_7_working_like_a_dog_meme.png" class="card-img-top img-fluid" alt="Meme 4">
+                </div>
+            </div>
+            <!-- Repeat for other memes -->
+        </div>
+    </div>
+</section>
+
+<footer class="bg-dark text-light py-4 mt-5">
+    <div class="container text-center">
+        <a href="https://twitter.com/yourusername" target="_blank">
+            <img src="twitter-icon.png" alt="Twitter" style="width: 40px; height: 40px;">
+        </a>
+        <a href="https://t.me/yourusername" target="_blank">
+            <img src="telegram-icon.png" alt="Telegram" style="width: 40px; height: 40px;">
+        </a>
+        <p class="mt-3">© 2024 Your Brand Name. All rights reserved.</p>
+    </div>
+</footer>
+
+<!-- Bootstrap JS and its dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- Your custom JS -->
+<script src="submit.js"></script>
+</body>
+</html>

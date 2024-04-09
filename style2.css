@@ -1,0 +1,72 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.55);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #ffffff;
+}
+
+.bg-image-section {
+    background: url('james-lacy-5w3oIN-0Lzs-unsplash.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 320px 0;
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right;
+    padding-right: 75%; /* Adjust so content is on the first 1/4th of the screen */
+}
+
+.headline {
+    font-weight: bold;
+    font-size: 3.5rem; /* Slightly larger font */
+    color: #f8f9fa; /* Off-white color */
+    text-shadow: 2px 2px 8px #000000; /* More pronounced shadow */
+}
+
+.btn-primary {
+    font-weight: bold;
+}
+
+.meme-gallery .card {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease;
+}
+
+.meme-gallery .card:hover {
+    transform: scale(1.05); /* Enlarge images on hover */
+}
+
+.meme-gallery h2 {
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+/* Adjust spacing and appearance of images */
+.meme-gallery img {
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Soft shadow for depth */
+}
+
+@media (max-width: 768px) {
+    .bg-image-section {
+        text-align: center;
+        padding-left: 0; /* Reset for smaller devices */
+    }
+    .headline {
+        font-size: 2rem; /* Smaller font for smaller devices */
+    }
+}
